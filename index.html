@@ -1,178 +1,287 @@
 <!DOCTYPE html>
-<html lang=en>
-<head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118995755-1"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","UA-118995755-1");</script>
-<script src=https://code.jquery.com/jquery-3.2.1.slim.min.js integrity=sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN crossorigin=anonymous></script>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel=stylesheet />
-<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css integrity=sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm crossorigin=anonymous />
-<link rel=stylesheet href=style.css />
-<meta charset=UTF-8 />
-<meta name=viewport content="width=device-width, initial-scale=1.0" />
-<title>StefDev</title>
-</head>
-<body>
-<header id=hero>
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top pt-1">
-<div class=container>
-<a class="navbar-brand align-self-center" href=#>
-<img src=img/logo-red.svg width=209 height=43 alt />
-</a>
-<button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarNav aria-controls=navbarNav aria-expanded=false aria-label="Toggle navigation">
-<span class=navbar-toggler-icon></span>
-</button>
-<div class="collapse navbar-collapse text-center" id=navbarNav>
-<ul class="navbar-nav ml-auto">
-<li class=nav-item>
-<a class=nav-link href=#services>Services</a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=#my-work>My Work</a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=#contact>Contact</a>
-</li>
-</ul>
-</div>
-</div>
-</nav>
-<div class="container text-center">
-<h1 class id=hero-title>
-Hi, I'm Stefan, a devoted
-<span class="d-block txt-type" data-wait=3000 data-words='["Web Developer.", "Web Designer.", "Digital Marketer."]'></span>
-</h1>
-<a href=#contact class=hvr-bounce-to-right id=hero-button>Let's Chat!</a>
-</div>
-</header>
-<section id=Services>
-<a class=anchor id=services></a>
-<div class=container>
-<h2 class=text-center id=service-main-title>
-Easy web solutions for <em>your</em> business
-</h2>
-<div class="row justify-content-around">
-<div class="col-lg-4 text-center service-card">
-<img src=img/data-red.svg alt class=service-img />
-<hr />
-<h3 class=service-title>Web Design</h3>
-<p class=normal-p>
-I design and develop clean and modern websites, with a
-mobile-first approach so that your business is accessible to every
-device.
-</p>
-</div>
-<div class="col-lg-4 text-center service-card">
-<img src=img/bullhorn-red.svg alt class=service-img />
-<hr />
-<h3 class=service-title>Digital Marketing</h3>
-<p class=normal-p>
-Using SEO, Social Media, and PPC advertising, I can get your
-business the online presence it needs to attract more customers.
-</p>
-</div>
-<div class="col-lg-4 text-center service-card">
-<img src=img/bar-chart-red.svg alt class=service-img id=bar-chart-svg />
-<hr />
-<h3 class=service-title>Analytic Reports</h3>
-<p class=normal-p>
-I collect and interpret data about user activity from your
-website's analytics and send you a comprehensive report every
-month.
-</p>
-</div>
-</div>
-</div>
-</section>
-<section id=My-Work>
-<a class=anchor id=my-work></a>
-<div class=container>
-<div class=my-work-text>
-<h2 class="text-center my-work-text-element" id=my-work-title>
-My Work
-</h2>
-<p class="text-center my-work-text-element" id=my-work-paragraph>
-Here are some projects that I've recently built or that I am
-currently working on:
-</p>
-</div>
-<div class=row id=work-row1>
-<div class=col-lg-6>
-<div class=display-work-image>
-<img src=img/display-work-smaller.png class=display-work-template alt width=450 />
-</div>
-</div>
-<div class=col-lg-6>
-<div class=display-work-text>
-<h3 class=work-subtitle>Pampered Pawz Mobile Dog Grooming</h3>
-<p class="work-subtext normal-p">
-A responsive Wordpress website made for New River Valley's
-<em>premium</em> mobile dog grooming service.
-</p>
-<a class="hvr-bounce-to-right normal-button work-button" href=https://www.pamperedpawznrv.com/ target=_blank>Visit Site</a>
-</div>
-</div>
-</div>
-<hr />
-<div class=row id=work-row2>
-<div class=col-lg-6>
-<div class=display-work-image>
-<img src=img/display-coming-soon.png class=display-work-template alt width=450 />
-</div>
-</div>
-<div class=col-lg-6>
-<div class=display-work-text>
-<h3 class=work-subtitle>Upcoming Projects</h3>
-<p class="work-subtext normal-p">
-My next project could be <em>yours</em>. Let's talk about it!
-</p>
-<a class="hvr-bounce-to-right normal-button work-button" href=#contact>Contact Me</a>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id=Contact>
-<a class=anchor id=contact></a>
-<div class=container>
-<div class=contact-text>
-<h2 class=text-center id=contact-title>Contact</h2>
-<p class=text-center id=contact-paragraph>
-Excited to get your business online? Take a minute to tell me about
-it! <span class=d-block>I'll respond as fast as I can.</span>
-</p>
-</div>
-<div class="row justify-content-center">
-<div class=col-lg-6>
-<form action=https://formspree.io/mpzyqoqr method=POST>
-<div class=form-group>
-<div class=form-input>
-<label for=user-name>Name</label>
-<input class=form-control type=text placeholder=Name id=user-name name=name required />
-</div>
-<div class=form-input>
-<label for=user-email>Email address</label>
-<input type=email class=form-control id=user-email placeholder=name@example.com name=email required />
-</div>
-</div>
-<div class="form-group form-input">
-<label for=user-text>Message</label>
-<textarea class=form-control id=user-text rows=3 placeholder="Let me know how I can help." name=message required></textarea>
-</div>
-<div class="row justify-content-center">
-<button type=submit class="hvr-bounce-to-right normal-button">
-Submit
-</button>
-</div>
-</form>
-</div>
-</div>
-</div>
-</section>
-<footer>
-<p class=text-center>stefdev.com &copy; 2020</p>
-</footer>
-<script src=main.js></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js integrity=sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q crossorigin=anonymous></script>
-<script src=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js integrity=sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl crossorigin=anonymous></script>
-</body>
+<html lang="en">
+  <head>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StefDev</title>
+  </head>
+
+  <body>
+    <header id="hero">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top pt-1">
+        <div class="container">
+          <a class="navbar-brand align-self-center" href="#">
+            <img src="img/logo-red.svg" width="209" height="43" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#my-work">My Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container text-center">
+        <h1 class="" id="hero-title">
+          Hi, I'm Stefan, a devoted
+          <span
+            class="d-block txt-type"
+            data-wait="3000"
+            data-words='["Web Developer.", "Web Designer.", "Digital Marketer."]'
+          ></span>
+        </h1>
+        <a href="#contact" class="hvr-bounce-to-right" id="hero-button"
+          >Let's Chat!</a
+        >
+      </div>
+    </header>
+
+    <section id="Services">
+      <a class="anchor" id="services"></a>
+      <div class="container">
+        <h2 class="text-center" id="service-main-title">
+          Easy web solutions for <em>your</em> business
+        </h2>
+        <div class="row justify-content-around">
+          <div class="col-lg-4 text-center service-card">
+            <img src="img/data-red.svg" alt="" class="service-img" />
+            <hr />
+            <h3 class="service-title">Web Design</h3>
+            <p class="normal-p">
+              I design and develop clean and modern websites, with a
+              mobile-first approach so that your business is accessible to every
+              device.
+            </p>
+          </div>
+          <div class="col-lg-4 text-center service-card">
+            <img src="img/bullhorn-red.svg" alt="" class="service-img" />
+            <hr />
+            <h3 class="service-title">Digital Marketing</h3>
+            <p class="normal-p">
+              Using SEO, Social Media, and PPC advertising, I can get your
+              business the online presence it needs to attract more customers.
+            </p>
+          </div>
+          <div class="col-lg-4 text-center service-card">
+            <img
+              src="img/bar-chart-red.svg"
+              alt=""
+              class="service-img"
+              id="bar-chart-svg"
+            />
+            <hr />
+            <h3 class="service-title">Analytic Reports</h3>
+            <p class="normal-p">
+              I collect and interpret data about user activity from your
+              website's analytics and send you a comprehensive report every
+              month.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="My-Work">
+      <a class="anchor" id="my-work"></a>
+      <div class="container">
+        <div class="my-work-text">
+          <h2 class="text-center my-work-text-element" id="my-work-title">
+            My Work
+          </h2>
+          <p class="text-center my-work-text-element" id="my-work-paragraph">
+            Here are some projects that I've recently built or that I am
+            currently working on:
+          </p>
+        </div>
+        <div class="row" id="work-row1">
+          <div class="col-lg-6">
+            <div class="display-work-image">
+              <img
+                src="img/display-work-smaller.png"
+                class="display-work-template"
+                alt=""
+                width="450"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="display-work-text">
+              <h3 class="work-subtitle">Pampered Pawz Mobile Dog Grooming</h3>
+              <p class="work-subtext normal-p">
+                A responsive Wordpress website made for New River Valley's
+                <em>premium</em> mobile dog grooming service.
+              </p>
+              <a
+                class="hvr-bounce-to-right normal-button work-button"
+                href="https://www.pamperedpawznrv.com/"
+                target="_blank"
+                >Visit Site</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row" id="work-row1">
+          <div class="col-lg-6">
+            <div class="display-work-text">
+              <h3 class="work-subtitle">Bubbles & Bows Pet Salon</h3>
+              <p class="work-subtext normal-p">
+                The best pet salon in Covington VA, digitally represented with an extremely <em>efficient</em> and <em>fast-loading</em> static website.
+              </p>
+              <a
+                class="hvr-bounce-to-right normal-button work-button"
+                href="https://bubblesandbows.us/"
+                target="_blank"
+                >Visit Site</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="display-work-image">
+              <img
+                src="img/BubblesPreview.png"
+                class="display-work-template"
+                alt=""
+                width="450"
+              />
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="row" id="work-row2">
+          <div class="col-lg-6">
+            <div class="display-work-image">
+              <img
+                src="img/display-coming-soon.png"
+                class="display-work-template"
+                alt=""
+                width="450"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="display-work-text">
+              <h3 class="work-subtitle">Upcoming Projects</h3>
+              <p class="work-subtext normal-p">
+                My next project could be <em>yours</em>. Let's talk about it!
+              </p>
+              <a
+                class="hvr-bounce-to-right normal-button work-button"
+                href="#contact"
+                >Contact Me</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contact">
+      <a class="anchor" id="contact"></a>
+      <div class="container">
+        <div class="contact-text">
+          <h2 class="text-center" id="contact-title">Contact</h2>
+          <p class="text-center" id="contact-paragraph">
+            Excited to get your business online? Take a minute to tell me about
+            it! <span class="d-block">I'll respond as fast as I can.</span>
+          </p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <form action="https://formspree.io/mpzyqoqr" method="POST">
+              <div class="form-group">
+                <div class="form-input">
+                  <label for="user-name">Name</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder="Name"
+                    id="user-name"
+                    name="name"
+                    required
+                  />
+                </div>
+                <div class="form-input">
+                  <label for="user-email">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="user-email"
+                    placeholder="name@example.com"
+                    name="email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group form-input">
+                <label for="user-text">Message</label>
+                <textarea
+                  class="form-control"
+                  id="user-text"
+                  rows="3"
+                  placeholder="Let me know how I can help."
+                  name="message"
+                  required
+                ></textarea>
+              </div>
+              <div class="row justify-content-center">
+                <button type="submit" class="hvr-bounce-to-right normal-button">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="text-center">stefdev.com &copy; 2020</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
